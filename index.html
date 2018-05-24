@@ -18,7 +18,7 @@
                 var y = this.getAttribute("position").y;
                 var z = this.getAttribute("position").z;
 
-                $( ".hiro" ).append( "<a-entity text-geometry='value: X; size: 1' material='color: #66E1B4' position='" + (x - 0.4) + " " + y + " " + (z + 0.5) + "' rotation='-90 0 0' scale='' visible=''></a-entity>");
+                $( this ).append( "<a-entity text-geometry='value: X; size: 1' material='color: #66E1B4' position='" + (x - 0.4) + " " + y + " " + (z + 0.5) + "' rotation='-90 0 0' scale='' visible=''></a-entity>");
                 
               });
             }
@@ -48,6 +48,6 @@
           </a-marker-camera>
             
         </a-scene>
-        
+
   </body>
 </html>
